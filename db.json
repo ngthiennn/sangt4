@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Bài viết đầu tiên",
+      "content": "Hello JSON Server",
+      "isDeleted": false
+    },
+    {
+      "id": "2",
+      "title": "Bài viết thứ 2",
+      "content": "Xin chào",
+      "isDeleted": true
+    },
+    {
+      "id": "3",
+      "title": "Bài viết thứ 3",
+      "content": "",
+      "isDeleted": true
+    },
+    {
+      "id": "4",
+      "title": "Bài viết thứ 4",
+      "content": "",
+      "isDeleted": true
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": "1",
+      "content": "Comment đầu tiên",
+      "isDeleted": false
+    },
+    {
+      "id": "2",
+      "postId": "1",
+      "content": "xin chào",
+      "isDeleted": false
+    },
+    {
+      "id": "3",
+      "postId": "2",
+      "content": "hallo",
+      "isDeleted": false
+    },
+    {
+      "id": "4",
+      "postId": "3",
+      "content": "anhon",
+      "isDeleted": true
+    }
+  ]
+}

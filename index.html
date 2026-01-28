@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Post Manager</title>
+</head>
+<body>
+  <h2>Thêm Post</h2>
+  <input id="title" placeholder="Title">
+  <input id="content" placeholder="Content">
+  <button onclick="addPost()">Add</button>
+
+  <h2>Danh sách Post</h2>
+  <ul id="postList"></ul>
+
+  <h2>Comment</h2>
+    <div id="commentSection" style="display:none">
+    <h3 id="commentTitle"></h3>
+    <input id="commentInput" placeholder="Nhập comment">
+    <button onclick="addComment()">Add Comment</button>
+    <ul id="commentList"></ul>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
